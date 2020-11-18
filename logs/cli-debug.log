@@ -1,0 +1,87 @@
+2020-11-11 02:55:36 Notice: Notice (8): Undefined property: Cake\Auth\DefaultPasswordHasher::$$2y$10$yvvHXKmbmHMoKJIPVkPOiOfqLe6CS7wgoWIV8aEEi3JT10gcOd3RC in [/var/www/html/pocake/src/Model/Entity/User.php, line 41]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Model\Entity\User::_setPassword() - APP/Model/Entity/User.php, line 41
+Cake\ORM\Entity::set() - CORE/src/Datasource/EntityTrait.php, line 254
+Cake\ORM\Entity::__set() - CORE/src/Datasource/EntityTrait.php, line 138
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 133
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:56:38 Notice: Notice (8): Undefined property: Cake\Auth\DefaultPasswordHasher::$$2y$10$.UWIi3bXtxhgvoRKzsqcRuZi8SeOSMWTcR.i/1lNuhnlYMUR4TtgS in [/var/www/html/pocake/src/Model/Entity/User.php, line 41]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Model\Entity\User::_setPassword() - APP/Model/Entity/User.php, line 41
+Cake\ORM\Entity::set() - CORE/src/Datasource/EntityTrait.php, line 254
+Cake\ORM\Entity::__set() - CORE/src/Datasource/EntityTrait.php, line 138
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 133
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:57:55 Notice: Notice (8): Undefined property: Cake\Auth\DefaultPasswordHasher::$$2y$10$TXNlgk58csyRWkNCkSHQbe39vTMZEOPLQWGIhB1HQ53jCYUgfhjra in [/var/www/html/pocake/src/Model/Entity/User.php, line 41]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Model\Entity\User::_setPassword() - APP/Model/Entity/User.php, line 41
+Cake\ORM\Entity::set() - CORE/src/Datasource/EntityTrait.php, line 254
+Cake\ORM\Entity::__set() - CORE/src/Datasource/EntityTrait.php, line 138
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 133
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+

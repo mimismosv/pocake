@@ -1,0 +1,2019 @@
+2020-08-29 01:31:15 Error: [Error] Call to undefined method Phinx\Db\Table\Column::set0()
+Stack Trace:
+#0 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(341): Phinx\Db\Table\Column->setOptions(Array)
+#1 /var/www/html/pocake/config/Migrations/20200829012411_create_users_table.php(34): Phinx\Db\Table->addColumn('role', 'emun', Array)
+#2 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(114): CreateUsersTable->change()
+#3 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(284): Phinx\Migration\Manager\Environment->executeMigration(Object(CreateUsersTable), 'up')
+#4 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(260): Phinx\Migration\Manager->executeMigration('default', Object(CreateUsersTable), 'up')
+#5 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20200829012411)
+#6 /var/www/html/pocake/vendor/cakephp/migrations/src/ConfigurationTrait.php(162): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/pocake/vendor/cakephp/migrations/src/Command/Migrate.php(59): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/pocake/vendor/symfony/console/Command/Command.php(259): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/html/pocake/vendor/symfony/console/Application.php(841): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/html/pocake/vendor/symfony/console/Application.php(192): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /var/www/html/pocake/vendor/symfony/console/Application.php(123): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(85): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput))
+#13 [internal function]: Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/Shell.php(448): call_user_func_array(Array, Array)
+#15 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(98): Cake\Console\Shell->runCommand(Array, true, Array)
+#16 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#17 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#18 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#19 /var/www/html/pocake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#20 {main}
+
+
+2020-08-29 01:31:40 Error: [Error] Call to undefined method Phinx\Db\Table\Column::set0()
+Stack Trace:
+#0 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(341): Phinx\Db\Table\Column->setOptions(Array)
+#1 /var/www/html/pocake/config/Migrations/20200829012411_create_users_table.php(34): Phinx\Db\Table->addColumn('role', 'enum', Array)
+#2 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(114): CreateUsersTable->change()
+#3 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(284): Phinx\Migration\Manager\Environment->executeMigration(Object(CreateUsersTable), 'up')
+#4 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(260): Phinx\Migration\Manager->executeMigration('default', Object(CreateUsersTable), 'up')
+#5 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20200829012411)
+#6 /var/www/html/pocake/vendor/cakephp/migrations/src/ConfigurationTrait.php(162): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/pocake/vendor/cakephp/migrations/src/Command/Migrate.php(59): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/pocake/vendor/symfony/console/Command/Command.php(259): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/html/pocake/vendor/symfony/console/Application.php(841): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/html/pocake/vendor/symfony/console/Application.php(192): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /var/www/html/pocake/vendor/symfony/console/Application.php(123): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(85): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput))
+#13 [internal function]: Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/Shell.php(448): call_user_func_array(Array, Array)
+#15 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(98): Cake\Console\Shell->runCommand(Array, true, Array)
+#16 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#17 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#18 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#19 /var/www/html/pocake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#20 {main}
+
+
+2020-08-29 01:32:20 Error: [Error] Call to undefined method Phinx\Db\Table\Column::set0()
+Stack Trace:
+#0 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(341): Phinx\Db\Table\Column->setOptions(Array)
+#1 /var/www/html/pocake/config/Migrations/20200829012411_create_users_table.php(34): Phinx\Db\Table->addColumn('role', 'enum', Array)
+#2 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(114): CreateUsersTable->change()
+#3 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(284): Phinx\Migration\Manager\Environment->executeMigration(Object(CreateUsersTable), 'up')
+#4 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(260): Phinx\Migration\Manager->executeMigration('default', Object(CreateUsersTable), 'up')
+#5 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20200829012411)
+#6 /var/www/html/pocake/vendor/cakephp/migrations/src/ConfigurationTrait.php(162): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/pocake/vendor/cakephp/migrations/src/Command/Migrate.php(59): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/pocake/vendor/symfony/console/Command/Command.php(259): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/html/pocake/vendor/symfony/console/Application.php(841): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/html/pocake/vendor/symfony/console/Application.php(192): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /var/www/html/pocake/vendor/symfony/console/Application.php(123): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(85): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput))
+#13 [internal function]: Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/Shell.php(448): call_user_func_array(Array, Array)
+#15 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(98): Cake\Console\Shell->runCommand(Array, true, Array)
+#16 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#17 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#18 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#19 /var/www/html/pocake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#20 {main}
+
+
+2020-08-29 01:32:48 Error: [Error] Call to undefined method Phinx\Db\Table\Column::set0()
+Stack Trace:
+#0 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(341): Phinx\Db\Table\Column->setOptions(Array)
+#1 /var/www/html/pocake/config/Migrations/20200829012411_create_users_table.php(34): Phinx\Db\Table->addColumn('role', 'enum', Array)
+#2 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(114): CreateUsersTable->change()
+#3 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(284): Phinx\Migration\Manager\Environment->executeMigration(Object(CreateUsersTable), 'up')
+#4 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(260): Phinx\Migration\Manager->executeMigration('default', Object(CreateUsersTable), 'up')
+#5 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20200829012411)
+#6 /var/www/html/pocake/vendor/cakephp/migrations/src/ConfigurationTrait.php(162): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/pocake/vendor/cakephp/migrations/src/Command/Migrate.php(59): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/pocake/vendor/symfony/console/Command/Command.php(259): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/html/pocake/vendor/symfony/console/Application.php(841): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/html/pocake/vendor/symfony/console/Application.php(192): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /var/www/html/pocake/vendor/symfony/console/Application.php(123): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(85): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput))
+#13 [internal function]: Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/Shell.php(448): call_user_func_array(Array, Array)
+#15 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(98): Cake\Console\Shell->runCommand(Array, true, Array)
+#16 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#17 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#18 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#19 /var/www/html/pocake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#20 {main}
+
+
+2020-08-29 01:33:45 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Stack Trace:
+#0 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(215): Phinx\Migration\Manager->getMigrations()
+#1 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', NULL)
+#2 /var/www/html/pocake/vendor/cakephp/migrations/src/ConfigurationTrait.php(162): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/pocake/vendor/cakephp/migrations/src/Command/Migrate.php(59): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/pocake/vendor/symfony/console/Command/Command.php(259): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/html/pocake/vendor/symfony/console/Application.php(841): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/pocake/vendor/symfony/console/Application.php(192): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/pocake/vendor/symfony/console/Application.php(123): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(85): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput))
+#9 [internal function]: Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#10 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/Shell.php(448): call_user_func_array(Array, Array)
+#11 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(98): Cake\Console\Shell->runCommand(Array, true, Array)
+#12 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#13 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 /var/www/html/pocake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2020-08-29 01:35:30 Error: [Error] Call to undefined method Phinx\Db\Table\Column::set0()
+Stack Trace:
+#0 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(341): Phinx\Db\Table\Column->setOptions(Array)
+#1 /var/www/html/pocake/config/Migrations/20200829012411_create_users_table.php(34): Phinx\Db\Table->addColumn('role', 'enum', Array)
+#2 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(114): CreateUsersTable->change()
+#3 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(284): Phinx\Migration\Manager\Environment->executeMigration(Object(CreateUsersTable), 'up')
+#4 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(260): Phinx\Migration\Manager->executeMigration('default', Object(CreateUsersTable), 'up')
+#5 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20200829012411)
+#6 /var/www/html/pocake/vendor/cakephp/migrations/src/ConfigurationTrait.php(162): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/pocake/vendor/cakephp/migrations/src/Command/Migrate.php(59): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/pocake/vendor/symfony/console/Command/Command.php(259): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/html/pocake/vendor/symfony/console/Application.php(841): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/html/pocake/vendor/symfony/console/Application.php(192): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /var/www/html/pocake/vendor/symfony/console/Application.php(123): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(85): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput))
+#13 [internal function]: Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/Shell.php(448): call_user_func_array(Array, Array)
+#15 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(98): Cake\Console\Shell->runCommand(Array, true, Array)
+#16 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#17 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#18 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#19 /var/www/html/pocake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#20 {main}
+
+
+2020-08-29 02:05:55 Error: [Error] Class 'DefaultPasswordHasher' not found
+Stack Trace:
+#0 /var/www/html/pocake/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php(133): CreateAdminSeedMigration->{closure}(Array, Object(Cake\ORM\Table))
+#1 /var/www/html/pocake/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php(103): Faker\ORM\CakePHP\EntityPopulator->execute('Users', Array, Array)
+#2 /var/www/html/pocake/config/Migrations/20200829015619_create_admin_seed_migration.php(29): Faker\ORM\CakePHP\Populator->execute()
+#3 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(117): CreateAdminSeedMigration->up()
+#4 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(284): Phinx\Migration\Manager\Environment->executeMigration(Object(CreateAdminSeedMigration), 'up')
+#5 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(260): Phinx\Migration\Manager->executeMigration('default', Object(CreateAdminSeedMigration), 'up')
+#6 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20200829015619)
+#7 /var/www/html/pocake/vendor/cakephp/migrations/src/ConfigurationTrait.php(162): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/pocake/vendor/cakephp/migrations/src/Command/Migrate.php(59): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/html/pocake/vendor/symfony/console/Command/Command.php(259): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/html/pocake/vendor/symfony/console/Application.php(841): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /var/www/html/pocake/vendor/symfony/console/Application.php(192): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /var/www/html/pocake/vendor/symfony/console/Application.php(123): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(85): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput))
+#14 [internal function]: Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#15 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/Shell.php(448): call_user_func_array(Array, Array)
+#16 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(98): Cake\Console\Shell->runCommand(Array, true, Array)
+#17 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#18 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#19 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#20 /var/www/html/pocake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#21 {main}
+
+
+2020-08-29 02:11:50 Error: [Error] Class 'DefaultPasswordHasher' not found
+Stack Trace:
+#0 /var/www/html/pocake/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php(133): CreateAdminSeedMigration->{closure}(Array, Object(Cake\ORM\Table))
+#1 /var/www/html/pocake/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php(103): Faker\ORM\CakePHP\EntityPopulator->execute('Users', Array, Array)
+#2 /var/www/html/pocake/config/Migrations/20200829015619_create_admin_seed_migration.php(30): Faker\ORM\CakePHP\Populator->execute()
+#3 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(117): CreateAdminSeedMigration->up()
+#4 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(284): Phinx\Migration\Manager\Environment->executeMigration(Object(CreateAdminSeedMigration), 'up')
+#5 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(260): Phinx\Migration\Manager->executeMigration('default', Object(CreateAdminSeedMigration), 'up')
+#6 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20200829015619)
+#7 /var/www/html/pocake/vendor/cakephp/migrations/src/ConfigurationTrait.php(162): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/pocake/vendor/cakephp/migrations/src/Command/Migrate.php(59): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/html/pocake/vendor/symfony/console/Command/Command.php(259): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/html/pocake/vendor/symfony/console/Application.php(841): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /var/www/html/pocake/vendor/symfony/console/Application.php(192): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /var/www/html/pocake/vendor/symfony/console/Application.php(123): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(85): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput))
+#14 [internal function]: Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#15 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/Shell.php(448): call_user_func_array(Array, Array)
+#16 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(98): Cake\Console\Shell->runCommand(Array, true, Array)
+#17 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#18 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#19 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#20 /var/www/html/pocake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#21 {main}
+
+
+2020-08-29 02:21:44 Error: [ParseError] syntax error, unexpected '{', expecting '('
+Stack Trace:
+#0 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(215): Phinx\Migration\Manager->getMigrations()
+#1 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', NULL)
+#2 /var/www/html/pocake/vendor/cakephp/migrations/src/ConfigurationTrait.php(162): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/pocake/vendor/cakephp/migrations/src/Command/Migrate.php(59): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/pocake/vendor/symfony/console/Command/Command.php(259): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/html/pocake/vendor/symfony/console/Application.php(841): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/pocake/vendor/symfony/console/Application.php(192): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/pocake/vendor/symfony/console/Application.php(123): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(85): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput))
+#9 [internal function]: Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#10 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/Shell.php(448): call_user_func_array(Array, Array)
+#11 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(98): Cake\Console\Shell->runCommand(Array, true, Array)
+#12 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#13 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 /var/www/html/pocake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2020-08-29 02:31:16 Error: [ParseError] syntax error, unexpected ''user_id'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+Stack Trace:
+#0 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(215): Phinx\Migration\Manager->getMigrations()
+#1 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', NULL)
+#2 /var/www/html/pocake/vendor/cakephp/migrations/src/ConfigurationTrait.php(162): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/pocake/vendor/cakephp/migrations/src/Command/Migrate.php(59): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/pocake/vendor/symfony/console/Command/Command.php(259): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/html/pocake/vendor/symfony/console/Application.php(841): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/pocake/vendor/symfony/console/Application.php(192): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/pocake/vendor/symfony/console/Application.php(123): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(85): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput))
+#9 [internal function]: Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#10 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/Shell.php(448): call_user_func_array(Array, Array)
+#11 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(98): Cake\Console\Shell->runCommand(Array, true, Array)
+#12 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#13 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 /var/www/html/pocake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2020-08-30 03:10:24 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Model" could not be found.
+Exception Attributes: array (
+  'class' => 'Model',
+)
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('Model')
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 /var/www/html/pocake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2020-11-11 02:42:52 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 102
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:42:52 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 102
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/Aura/Intl/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 237
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 129
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 104
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:42:52 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 105
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/Aura/Intl/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 237
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 129
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 104
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:42:52 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 105
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:55:01 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Migrationes" could not be found.
+Exception Attributes: array (
+  'class' => 'Migrationes',
+)
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('Migrationes')
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 /var/www/html/pocake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2020-11-11 02:55:36 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/models/myapp_cake_model_default_users): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 312
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 58
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Faker\ORM\CakePHP\EntityPopulator::guessColumnFormatters() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 53
+Faker\ORM\CakePHP\Populator::addEntity() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 77
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 28
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:55:36 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/models/myapp_cake_model_default_users): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 234
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 67
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Faker\ORM\CakePHP\EntityPopulator::guessColumnFormatters() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 53
+Faker\ORM\CakePHP\Populator::addEntity() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 77
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 28
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:55:36 Warning: Warning (512): _cake_model_ cache was unable to write 'default_users' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Cache.php, line 243]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 243
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 67
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Faker\ORM\CakePHP\EntityPopulator::guessColumnFormatters() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 53
+Faker\ORM\CakePHP\Populator::addEntity() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 77
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 28
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:55:36 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 102
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:55:36 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 102
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/Aura/Intl/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 237
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 129
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 104
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:55:36 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 105
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/Aura/Intl/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 237
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 129
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 104
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:55:36 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 105
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:56:38 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/models/myapp_cake_model_default_users): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 312
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 58
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Faker\ORM\CakePHP\EntityPopulator::guessColumnFormatters() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 53
+Faker\ORM\CakePHP\Populator::addEntity() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 77
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 28
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:56:38 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/models/myapp_cake_model_default_users): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 234
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 67
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Faker\ORM\CakePHP\EntityPopulator::guessColumnFormatters() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 53
+Faker\ORM\CakePHP\Populator::addEntity() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 77
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 28
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:56:38 Warning: Warning (512): _cake_model_ cache was unable to write 'default_users' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Cache.php, line 243]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 243
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 67
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Faker\ORM\CakePHP\EntityPopulator::guessColumnFormatters() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 53
+Faker\ORM\CakePHP\Populator::addEntity() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 77
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 28
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:56:38 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 102
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:56:38 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 102
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/Aura/Intl/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 237
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 129
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 104
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:56:38 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 105
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/Aura/Intl/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 237
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 129
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 104
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:56:38 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 105
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:57:55 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/models/myapp_cake_model_default_users): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 312
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 58
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Faker\ORM\CakePHP\EntityPopulator::guessColumnFormatters() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 53
+Faker\ORM\CakePHP\Populator::addEntity() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 77
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 28
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:57:55 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/models/myapp_cake_model_default_users): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 234
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 67
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Faker\ORM\CakePHP\EntityPopulator::guessColumnFormatters() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 53
+Faker\ORM\CakePHP\Populator::addEntity() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 77
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 28
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:57:55 Warning: Warning (512): _cake_model_ cache was unable to write 'default_users' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Cache.php, line 243]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 243
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 67
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Faker\ORM\CakePHP\EntityPopulator::guessColumnFormatters() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 53
+Faker\ORM\CakePHP\Populator::addEntity() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 77
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 28
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:57:55 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 102
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:57:55 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 102
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/Aura/Intl/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 237
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 129
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 104
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:57:55 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 105
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/Aura/Intl/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 237
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 129
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 104
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:57:55 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 105
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:58:43 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/models/myapp_cake_model_default_users): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 312
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 58
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Faker\ORM\CakePHP\EntityPopulator::guessColumnFormatters() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 53
+Faker\ORM\CakePHP\Populator::addEntity() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 77
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 28
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:58:43 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/models/myapp_cake_model_default_users): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 234
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 67
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Faker\ORM\CakePHP\EntityPopulator::guessColumnFormatters() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 53
+Faker\ORM\CakePHP\Populator::addEntity() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 77
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 28
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:58:43 Warning: Warning (512): _cake_model_ cache was unable to write 'default_users' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Cache.php, line 243]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 243
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 67
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Faker\ORM\CakePHP\EntityPopulator::guessColumnFormatters() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 53
+Faker\ORM\CakePHP\Populator::addEntity() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 77
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 28
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:58:43 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 102
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:58:43 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 102
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/Aura/Intl/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 237
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 129
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 104
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:58:43 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 105
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/Aura/Intl/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 237
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 129
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 104
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-11 02:58:43 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 105
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-18 02:01:49 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/models/myapp_cake_model_default_users): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 312
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 58
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Faker\ORM\CakePHP\EntityPopulator::guessColumnFormatters() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 53
+Faker\ORM\CakePHP\Populator::addEntity() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 77
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 28
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-18 02:01:49 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/models/myapp_cake_model_default_users): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 234
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 67
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Faker\ORM\CakePHP\EntityPopulator::guessColumnFormatters() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 53
+Faker\ORM\CakePHP\Populator::addEntity() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 77
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 28
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-18 02:01:49 Warning: Warning (512): _cake_model_ cache was unable to write 'default_users' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Cache.php, line 243]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 243
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 67
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Faker\ORM\CakePHP\EntityPopulator::guessColumnFormatters() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 53
+Faker\ORM\CakePHP\Populator::addEntity() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 77
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 28
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-18 02:01:49 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 102
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-18 02:01:49 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 102
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/Aura/Intl/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 237
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 129
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 104
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-18 02:01:49 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 105
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/Aura/Intl/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 237
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 129
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 104
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-18 02:01:49 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 105
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 30
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-18 02:03:14 Error: [ParseError] syntax error, unexpected 'return' (T_RETURN), expecting '{'
+Stack Trace:
+#0 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(333): Phinx\Migration\Manager->getMigrations()
+#1 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Console/Command/Rollback.php(103): Phinx\Migration\Manager->rollback('default', NULL)
+#2 /var/www/html/pocake/vendor/cakephp/migrations/src/ConfigurationTrait.php(162): Phinx\Console\Command\Rollback->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/pocake/vendor/cakephp/migrations/src/Command/Rollback.php(59): Migrations\Command\Rollback->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/pocake/vendor/symfony/console/Command/Command.php(259): Migrations\Command\Rollback->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/html/pocake/vendor/symfony/console/Application.php(841): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/pocake/vendor/symfony/console/Application.php(192): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Rollback), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/pocake/vendor/symfony/console/Application.php(123): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(85): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput))
+#9 [internal function]: Migrations\Shell\MigrationsShell->main('migrations', 'rollback')
+#10 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/Shell.php(448): call_user_func_array(Array, Array)
+#11 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(98): Cake\Console\Shell->runCommand(Array, true, Array)
+#12 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#13 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 /var/www/html/pocake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2020-11-18 02:03:43 Error: [ParseError] syntax error, unexpected 'return' (T_RETURN), expecting '{'
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/migrations/src/CakeManager.php(43): Phinx\Migration\Manager->getMigrations()
+#1 /var/www/html/pocake/vendor/cakephp/migrations/src/Command/Status.php(71): Migrations\CakeManager->printStatus('default', NULL)
+#2 /var/www/html/pocake/vendor/symfony/console/Command/Command.php(259): Migrations\Command\Status->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/pocake/vendor/symfony/console/Application.php(841): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/pocake/vendor/symfony/console/Application.php(192): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Status), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/html/pocake/vendor/symfony/console/Application.php(123): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(85): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput))
+#7 [internal function]: Migrations\Shell\MigrationsShell->main('migrations', 'status')
+#8 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/Shell.php(448): call_user_func_array(Array, Array)
+#9 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(98): Cake\Console\Shell->runCommand(Array, true, Array)
+#10 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#11 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 /var/www/html/pocake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2020-11-18 02:04:05 Error: [ParseError] syntax error, unexpected 'return' (T_RETURN), expecting '{'
+Stack Trace:
+#0 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(215): Phinx\Migration\Manager->getMigrations()
+#1 /var/www/html/pocake/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', NULL)
+#2 /var/www/html/pocake/vendor/cakephp/migrations/src/ConfigurationTrait.php(162): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/pocake/vendor/cakephp/migrations/src/Command/Migrate.php(59): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/pocake/vendor/symfony/console/Command/Command.php(259): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/html/pocake/vendor/symfony/console/Application.php(841): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/pocake/vendor/symfony/console/Application.php(192): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/pocake/vendor/symfony/console/Application.php(123): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(85): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput))
+#9 [internal function]: Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#10 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/Shell.php(448): call_user_func_array(Array, Array)
+#11 /var/www/html/pocake/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(98): Cake\Console\Shell->runCommand(Array, true, Array)
+#12 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#13 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 /var/www/html/pocake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 /var/www/html/pocake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2020-11-18 02:05:04 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/models/myapp_cake_model_default_users): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 312
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 58
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Faker\ORM\CakePHP\EntityPopulator::guessColumnFormatters() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 53
+Faker\ORM\CakePHP\Populator::addEntity() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 77
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 26
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-18 02:05:04 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/models/myapp_cake_model_default_users): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 234
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 67
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Faker\ORM\CakePHP\EntityPopulator::guessColumnFormatters() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 53
+Faker\ORM\CakePHP\Populator::addEntity() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 77
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 26
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-18 02:05:04 Warning: Warning (512): _cake_model_ cache was unable to write 'default_users' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Cache.php, line 243]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 243
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 67
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Faker\ORM\CakePHP\EntityPopulator::guessColumnFormatters() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 53
+Faker\ORM\CakePHP\Populator::addEntity() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 77
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 26
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-18 02:05:04 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 102
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 28
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-18 02:05:04 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 102
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/Aura/Intl/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 237
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 129
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 104
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 28
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-18 02:05:04 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 105
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/Aura/Intl/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 237
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 129
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 104
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 28
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2020-11-18 02:05:04 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 105
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 144
+__d - CORE/src/I18n/functions.php, line 81
+Cake\ORM\RulesChecker::isUnique() - CORE/src/ORM/RulesChecker.php, line 49
+App\Model\Table\UsersTable::buildRules() - APP/Model/Table/UsersTable.php, line 89
+Cake\ORM\Table::rulesChecker() - CORE/src/Datasource/RulesAwareTrait.php, line 96
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 50
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1424
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1381
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 557
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1382
+Faker\ORM\CakePHP\EntityPopulator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php, line 141
+Faker\ORM\CakePHP\Populator::execute() - ROOT/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php, line 103
+CreateAdminSeedMigration::up() - ROOT/config/Migrations/20200829015619_create_admin_seed_migration.php, line 28
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 117
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 284
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 260
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 162
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 59
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 259
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 841
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 192
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 123
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 85
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 448
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 98
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+

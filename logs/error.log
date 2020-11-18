@@ -1,0 +1,1282 @@
+2020-08-29 02:59:18 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/users/view/Edson
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('users/view/Edso...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 02:59:18 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/681356b8-63af-4d5e-af79-509128b6701b
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 02:59:18 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/ca47663d-a7b8-47be-9d05-fb1c3a85c47a
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 02:59:18 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/b56c22a5-15bf-4bb1-80c8-606e3232946f
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 02:59:18 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/5ee6731d-8875-4c08-bd2c-fb9e055e3df8
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 02:59:18 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/9cfaaa5e-985e-4d91-a3b6-e1f171b43177
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 02:59:18 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/a7f62d62-6dcb-40db-be69-19dfece6da47
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 02:59:18 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/a62f5f0e-a867-492b-a6ae-fec87b6b750b
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 02:59:19 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/dda06655-9af3-4b84-8628-8bad45dea3fe
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 02:59:19 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/dc462549-3dde-476a-a8a5-339635074bbc
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 02:59:45 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/users/view/Edson
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('users/view/Edso...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 02:59:45 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/ce609e9f-6679-4383-88ee-f967a9b921a5
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 02:59:45 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/1289a6e3-8ffd-4106-b3c9-783b6a4840b9
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 02:59:45 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/11cda5c3-15e7-4b85-bba8-790c6c34c459
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 02:59:46 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/2f81e773-3f40-4792-ba96-fe18689cb044
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 02:59:46 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/fe0f2399-8986-4f47-a644-439a154cef51
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 02:59:46 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/3430584a-0e39-49e6-ad52-17a592ede0e9
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 02:59:46 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/9d952199-8035-43b8-b303-c0402c62bd15
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 02:59:46 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/28ecb7b2-6247-464c-a1c0-d8126d92c44b
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 02:59:46 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/1dc85247-058e-47a3-81ed-fb1ab4b2c459
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:00:43 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/users/view/
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('users/view/')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:00:43 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/497f45c4-d7fb-4bff-bca1-596d18866a8a
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:00:43 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/2595fd65-2928-4b41-8bb1-8fe182e038b7
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:00:43 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/8bd2c7ec-b6a5-4881-b353-7e4fef978216
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:00:43 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/5aac1f65-d3ec-4145-b2a5-f6ccc34c937f
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:00:43 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/f7b66274-31ec-4fd3-b2ec-8047f8ce61d1
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:00:43 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/953d81a7-9c33-437e-807f-ae6be5a9c68e
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:00:43 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/b80ace7b-8a50-4069-b252-a59d21f0e213
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:00:43 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/89de5dd1-ee14-4367-8133-ff224d5b369d
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:00:44 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/fb41e455-52fc-41e5-a4a8-d1f49ed7722e
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:02:04 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/users/
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('users/')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:02:04 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/dfa7bf7a-9227-47ae-96c1-f17cf22ece1f
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:02:04 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/f2412b70-479d-486b-a02e-3ef8faab0eb0
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:02:04 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/0c93a761-5675-4ea7-9b85-e70c34e8b640
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:02:04 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/d72c9418-2cf8-464a-906e-5a29659646f8
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:02:04 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/342b81fa-c7af-4fbd-89ad-45a0325c2800
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:02:04 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/b158adbd-76e7-4bb4-b6d0-8573dea0b176
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:02:04 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/8a048bd3-4f8a-4150-a19d-b2948b6ee0de
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:02:04 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/e4406507-7e1c-45d9-8ef3-66e375874e25
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:02:05 Error: [ParseError] syntax error, unexpected 'Plugin' (T_STRING), expecting ',' or ')'
+Request URL: /pocake/debug_kit/toolbar/c78a7b9d-fcfd-4b35-bc96-68c31829a175
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Router.php(333): Cake\Routing\Router::_loadRoutes()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('debug_kit/toolb...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-08-29 03:04:36 Warning: Warning (2): Missing argument 1 for App\Controller\UsersController::view() in [/var/www/html/pocake/src/Controller/UsersController.php, line 18]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 18
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2020-08-29 03:05:28 Warning: Warning (2): Missing argument 1 for App\Controller\UsersController::view() in [/var/www/html/pocake/src/Controller/UsersController.php, line 19]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 19
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2020-08-29 03:05:31 Warning: Warning (2): Missing argument 1 for App\Controller\UsersController::view() in [/var/www/html/pocake/src/Controller/UsersController.php, line 19]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 19
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2020-08-29 03:06:11 Warning: Warning (2): Missing argument 1 for App\Controller\UsersController::view() in [/var/www/html/pocake/src/Controller/UsersController.php, line 19]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 19
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2020-08-29 03:07:53 Warning: Warning (2): Missing argument 1 for App\Controller\UsersController::ver() in [/var/www/html/pocake/src/Controller/UsersController.php, line 19]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\UsersController::ver() - APP/Controller/UsersController.php, line 19
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2020-08-29 03:08:52 Warning: Warning (2): Missing argument 1 for App\Controller\UsersController::ver() in [/var/www/html/pocake/src/Controller/UsersController.php, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\UsersController::ver() - APP/Controller/UsersController.php, line 24
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2020-08-29 03:08:53 Warning: Warning (2): Missing argument 1 for App\Controller\UsersController::ver() in [/var/www/html/pocake/src/Controller/UsersController.php, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\UsersController::ver() - APP/Controller/UsersController.php, line 24
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2020-08-29 03:08:53 Warning: Warning (2): Missing argument 1 for App\Controller\UsersController::ver() in [/var/www/html/pocake/src/Controller/UsersController.php, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\UsersController::ver() - APP/Controller/UsersController.php, line 24
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2020-08-30 03:21:35 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/models/myapp_cake_model_default_users): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+DebugKit\Cache\Engine\DebugEngine::read() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 146
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 312
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 58
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 173
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 131
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1232
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 935
+App\Controller\UsersController::index() - APP/Controller/UsersController.php, line 18
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2020-08-30 03:21:36 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/models/myapp_cake_model_default_users) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+DebugKit\Cache\Engine\DebugEngine::write() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 122
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 234
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 67
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 173
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 131
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1232
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 935
+App\Controller\UsersController::index() - APP/Controller/UsersController.php, line 18
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2020-08-30 03:21:36 Warning: Warning (512): _cake_model_ cache was unable to write 'default_users' to DebugKit\Cache\Engine\DebugEngine cache in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Cache.php, line 243]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 243
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 67
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 173
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 131
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1232
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 935
+App\Controller\UsersController::index() - APP/Controller/UsersController.php, line 18
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2020-08-30 03:24:36 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/models/myapp_cake_model_default_users): failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+DebugKit\Cache\Engine\DebugEngine::read() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 146
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 312
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 58
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 173
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 131
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1232
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 935
+App\Controller\UsersController::index() - APP/Controller/UsersController.php, line 18
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2020-08-30 03:24:36 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/pocake/tmp/cache/models/myapp_cake_model_default_users) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 395]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 395
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+DebugKit\Cache\Engine\DebugEngine::write() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 122
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 234
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 67
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 173
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 131
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1232
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 935
+App\Controller\UsersController::index() - APP/Controller/UsersController.php, line 18
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2020-08-30 03:24:36 Warning: Warning (512): _cake_model_ cache was unable to write 'default_users' to DebugKit\Cache\Engine\DebugEngine cache in [/var/www/html/pocake/vendor/cakephp/cakephp/src/Cache/Cache.php, line 243]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 243
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 67
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 423
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 173
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 131
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1232
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 935
+App\Controller\UsersController::index() - APP/Controller/UsersController.php, line 18
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2020-08-30 03:49:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Bookmarks could not be found.
+Exception Attributes: array (
+  'class' => 'Bookmarks',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pocake/bookmarks
+Stack Trace:
+#0 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2020-08-30 03:49:57 Warning: Warning (2): Missing argument 1 for App\Controller\UsersController::add() in [/var/www/html/pocake/src/Controller/UsersController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\UsersController::add() - APP/Controller/UsersController.php, line 28
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2020-08-30 03:50:16 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::view() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'view',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /pocake/users/view/9
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2020-08-30 03:57:29 Warning: Warning (2): Missing argument 1 for App\Controller\UsersController::add() in [/var/www/html/pocake/src/Controller/UsersController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\UsersController::add() - APP/Controller/UsersController.php, line 28
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2020-08-30 03:59:40 Error: [Cake\View\Exception\MissingTemplateException] Template file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /pocake/users/add
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/View/View.php(576): Cake\View\View->_getViewFileName('Users/add')
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#4 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2020-08-30 04:22:04 Error: [TypeError] Argument 1 passed to Cake\ORM\Table::save() must implement interface Cake\Datasource\EntityInterface, null given, called in /var/www/html/pocake/src/Controller/UsersController.php on line 37
+Request URL: /pocake/users/add
+Stack Trace:
+#0 /var/www/html/pocake/src/Controller/UsersController.php(37): Cake\ORM\Table->save(NULL)
+#1 [internal function]: App\Controller\UsersController->add()
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#5 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2020-08-30 04:24:21 Error: [TypeError] Argument 1 passed to Cake\ORM\Table::save() must implement interface Cake\Datasource\EntityInterface, null given, called in /var/www/html/pocake/src/Controller/UsersController.php on line 37
+Request URL: /pocake/users/add
+Stack Trace:
+#0 /var/www/html/pocake/src/Controller/UsersController.php(37): Cake\ORM\Table->save(NULL)
+#1 [internal function]: App\Controller\UsersController->add()
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#5 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2020-08-30 04:26:49 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::edit() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'edit',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /pocake/users/edit/52
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2020-08-30 04:55:07 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /pocake/users/add
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/View/View.php(944): Cake\View\View->_evaluate('/var/www/html/p...', Array)
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/View/View.php(579): Cake\View\View->_render('/var/www/html/p...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#5 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2020-09-08 01:34:30 Warning: Warning (2): Missing argument 1 for App\Controller\UsersController::view() in [/var/www/html/pocake/src/Controller/UsersController.php, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 22
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2020-09-08 01:34:37 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::list() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'list',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /pocake/users/list/
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2020-09-08 02:59:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class User could not be found.
+Exception Attributes: array (
+  'class' => 'User',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pocake/user/add
+Stack Trace:
+#0 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2020-09-08 03:00:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pocake/css/bootstrap.min.css.map
+Stack Trace:
+#0 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2020-09-08 03:01:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pocake/css/bootstrap.min.css.map
+Stack Trace:
+#0 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2020-09-08 03:01:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pocake/css/bootstrap.min.css.map
+Stack Trace:
+#0 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2020-09-08 03:21:08 Error: [Error] Call to undefined method App\View\AppView::elememt()
+Request URL: /pocake/users/add
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/View/View.php(984): include()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/View/View.php(944): Cake\View\View->_evaluate('/var/www/html/p...', Array)
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/View/View.php(625): Cake\View\View->_render('/var/www/html/p...')
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->renderLayout('', 'default')
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#7 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2020-09-08 03:21:55 Error: [ParseError] syntax error, unexpected ')', expecting ']'
+Request URL: /pocake/users/add
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/View/View.php(944): Cake\View\View->_evaluate('/var/www/html/p...', Array)
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/View/View.php(1321): Cake\View\View->_render('/var/www/html/p...', Array)
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/View/View.php(485): Cake\View\View->_renderElement('/var/www/html/p...', Array, Array)
+#3 /var/www/html/pocake/src/Template/Layout/default.ctp(38): Cake\View\View->element('menu')
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/View/View.php(984): include('/var/www/html/p...')
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/View/View.php(944): Cake\View\View->_evaluate('/var/www/html/p...', Array)
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/View/View.php(625): Cake\View\View->_render('/var/www/html/p...')
+#7 /var/www/html/pocake/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->renderLayout('', 'default')
+#8 /var/www/html/pocake/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#9 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#10 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#11 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2020-09-30 01:33:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pocake/css/base.css
+Stack Trace:
+#0 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2020-09-30 01:33:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pocake/css/cake.css
+Stack Trace:
+#0 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2020-09-30 01:40:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pocake/css/cake.css
+Stack Trace:
+#0 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2020-09-30 01:40:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pocake/css/base.css
+Stack Trace:
+#0 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2020-09-30 01:43:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pocake/css/base.css
+Stack Trace:
+#0 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2020-09-30 01:43:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pocake/css/cake.css
+Stack Trace:
+#0 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2020-09-30 01:44:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pocake/css/base.css
+Stack Trace:
+#0 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2020-09-30 01:44:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pocake/css/cake.css
+Stack Trace:
+#0 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2020-09-30 01:46:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pocake/css/cake.css
+Stack Trace:
+#0 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2020-09-30 01:46:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pocake/css/base.css
+Stack Trace:
+#0 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2020-09-30 01:48:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Add could not be found.
+Exception Attributes: array (
+  'class' => 'Add',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pocake/add/
+Stack Trace:
+#0 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2020-09-30 01:48:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pocake/css/bootstrap.min.css.map
+Stack Trace:
+#0 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2020-09-30 01:49:07 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::edit() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'edit',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /pocake/users/edit/1
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2020-09-30 01:49:16 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::delete() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'delete',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /pocake/users/delete/57
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2020-09-30 02:17:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Login could not be found.
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pocake/login
+Stack Trace:
+#0 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2020-09-30 02:17:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Login could not be found.
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pocake/login/
+Stack Trace:
+#0 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2020-09-30 02:36:37 Error: [ParseError] syntax error, unexpected '=', expecting ']'
+Request URL: /pocake/users/login/
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/View/View.php(944): Cake\View\View->_evaluate('/var/www/html/p...', Array)
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/View/View.php(579): Cake\View\View->_render('/var/www/html/p...')
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#5 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2020-09-30 02:45:47 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::home() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'home',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /pocake/users/home
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2020-10-28 03:55:07 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::edit() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'edit',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /pocake/users/edit/1
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2020-11-11 02:06:51 Warning: Warning (2): Missing argument 1 for App\Controller\UsersController::view() in [/var/www/html/pocake/src/Controller/UsersController.php, line 47]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 47
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2020-11-18 02:22:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.active' in 'where clause'
+Request URL: /pocake/users/login
+Stack Trace:
+#0 /var/www/html/pocake/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /var/www/html/pocake/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(171): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 /var/www/html/pocake/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 /var/www/html/pocake/vendor/cakephp/cakephp/src/Database/Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 /var/www/html/pocake/vendor/cakephp/cakephp/src/Database/Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 /var/www/html/pocake/vendor/cakephp/cakephp/src/ORM/Query.php(878): Cake\Database\Query->execute()
+#6 /var/www/html/pocake/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(272): Cake\ORM\Query->_execute()
+#7 /var/www/html/pocake/vendor/cakephp/cakephp/src/ORM/Query.php(829): Cake\ORM\Query->_all()
+#8 /var/www/html/pocake/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(395): Cake\ORM\Query->all()
+#9 /var/www/html/pocake/vendor/cakephp/cakephp/src/Auth/BaseAuthenticate.php(105): Cake\ORM\Query->first()
+#10 /var/www/html/pocake/vendor/cakephp/cakephp/src/Auth/FormAuthenticate.php(76): Cake\Auth\BaseAuthenticate->_findUser('oicguevara@gmai...', 'secret')
+#11 /var/www/html/pocake/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(769): Cake\Auth\FormAuthenticate->authenticate(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 /var/www/html/pocake/src/Controller/UsersController.php(21): Cake\Controller\Component\AuthComponent->identify()
+#13 [internal function]: App\Controller\UsersController->login()
+#14 /var/www/html/pocake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#15 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 /var/www/html/pocake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#17 /var/www/html/pocake/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
