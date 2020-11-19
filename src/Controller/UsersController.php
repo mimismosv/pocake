@@ -17,7 +17,7 @@ class UsersController extends AppController
     {
         if(isset($user['role']) and $user['role']  === 'user')
         {
-            if(in_array($this->request->action, ['home', 'logout']))
+            if(in_array($this->request->action, ['home', 'view', 'logout']))
             {
                 return true;
             }
